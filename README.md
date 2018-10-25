@@ -1,0 +1,2 @@
+# Teletype-Pre-Work-Part-1
+This project supplies prospective students with a prototype (also known as a mock-up) to recreate from the ground up using only HTML5 and CSS.  There are hints regarding fonts and colors, but for the most part, we want applicants to recreate the prototype in the simplest way possible.  It is okay to use Grid or Flexbox, however, do not use Bootstrap.  Make sure to use structurally correct HTML5 tags and try to only use classes for styling.  Try not to overuse div elements, id attributes, or !important.   
