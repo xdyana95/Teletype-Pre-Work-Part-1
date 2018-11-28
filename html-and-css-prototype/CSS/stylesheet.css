@@ -40,6 +40,30 @@ h1 {
 */
 
 /* Your CSS code goes here */
+form {
+	height: 40px;
+}
+a {
+	font-size: 13px;
+	color:  #20A1D4;
+	text-decoration: none;
+	display:block;
+	padding: 3px 0;
+}
+form button {
+	color:white;
+	background-color: #1CBC2C;
+	width: 105px;
+	height: 38px;
+	border-radius: 3px;
+	border: 0;
+	font-size: 14px;
+	float: right;
+	box-shadow: 0 2px #19A727;
+}
+.main-box p {
+	margin: 12px 0;
+}
 .project-box {
 	width:260px;
 	margin: 50px auto;
@@ -52,7 +76,7 @@ h1 {
 	color:#777;
 	font-size: 14px;
 	margin-bottom: 10px;
-	box-shadow: 0 1px #eaeaea;
+	box-shadow: 0 2px #eaeaea;
 
 }
 .dollar-sign {
@@ -65,7 +89,6 @@ h1 {
 	padding: 4px 5px;
 	font-weight: bold;
 }
-
 .dollar-sign input{
 	border: 0;
 	width: 80px;
@@ -86,7 +109,6 @@ h1 {
 	padding:10px;
 	font-size:14px;
 }
-
 .speech-bubble:after {
 	content: '';
 	position: absolute;
@@ -100,20 +122,13 @@ h1 {
 	margin-left: -5px;
 	margin-bottom: -5px;
 }
-.box-paragraphs {
-	margin: 12px 0;
-}
-#orange-font {
-	color: #EF5F3C;
-}
-
 .progress-bar {
 	background-color:#F4F4F4;
 	margin-top: 10px;
 	height: 12px;
 	border: 1px solid #D0D0D0;
 	border-bottom: 0;
-	box-shadow: inset 0 1px 0 #DFDFDF;
+	box-shadow: inset 0 2px 0 #DFDFDF;
 }
 .completed-bar {
 	background-color: #EF5F3C;
@@ -121,34 +136,12 @@ h1 {
 	width: 75%;
 	box-shadow: inset 0 1px 0 #F17C60;
 }
-.green-button {
-	color:white;
-	background-color: #1CBC2C;
-	width: 105px;
-	height: 40px;
-	border-radius: 3px;
-	border: 0;
-	font-size: 14px;
-	float: right;
-}
-form {
-	height: 40px;
-}
-a {
-	font-size: 13px;
-	color:  #20A1D4;
-	text-decoration: none;
-	font-weight: bold;
-	display:block;
-	padding: 3px 0;
-}
-
 .save-for-later {
 	width: 121px;
 	height:30px;
 	border-radius: 3px;
 	background-color: #F4F4F4;
-	color: #424242;
+	color: #777;
 	border: 1px solid #D0D0D0;
 	font-size: 12px;
 	font-weight: bold;
@@ -160,9 +153,12 @@ a {
 	float: right;
 	border-radius: 3px;
 	background-color: #F4F4F4;
-	color: #424242;
+	color: #777;
 	border: 1px solid #D0D0D0;
 	font-size: 12px;
 	font-weight: bold;
 	box-shadow: 0 1px #D0D0D0;
+}
+#orange-font {
+	color: #EF5F3C;
 }
