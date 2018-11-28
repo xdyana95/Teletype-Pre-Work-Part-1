@@ -54,12 +54,12 @@ form button {
 	color:white;
 	background-color: #1CBC2C;
 	width: 105px;
-	height: 38px;
 	border-radius: 3px;
 	border: 0;
 	font-size: 14px;
 	float: right;
-	box-shadow: 0 2px #19A727;
+	box-shadow: inset 0 -2px 0 #19A727;
+	padding: 12px;
 }
 .main-box p {
 	margin: 12px 0;
@@ -79,10 +79,10 @@ form button {
 	box-shadow: 0 2px #eaeaea;
 
 }
+/* empty form with dollar sign */
 .dollar-sign {
 	border: 1px solid #D0D0D0;
 	width: 105px;
-	height: 40px;
 	float: left;
 	font-size: 16px;
 	border-radius: 3px;
@@ -98,17 +98,17 @@ form button {
 	height: 30px;
 	vertical-align: middle;
 }
-
+/* speech bubble */
 .speech-bubble {
 	position: relative;
 	background: #424242;
 	border-radius: .2em;
 	color: #eaeaea;
-	height: 40px;
 	text-align: center;
-	padding:10px;
+	padding:10px 0 15px 0;
 	font-size:14px;
 }
+/* speech bubble tail */
 .speech-bubble:after {
 	content: '';
 	position: absolute;
@@ -130,6 +130,7 @@ form button {
 	border-bottom: 0;
 	box-shadow: inset 0 2px 0 #DFDFDF;
 }
+/* orange progress bar */
 .completed-bar {
 	background-color: #EF5F3C;
 	height: 12px;
@@ -138,7 +139,6 @@ form button {
 }
 .save-for-later {
 	width: 121px;
-	height:30px;
 	border-radius: 3px;
 	background-color: #F4F4F4;
 	color: #777;
@@ -146,10 +146,10 @@ form button {
 	font-size: 12px;
 	font-weight: bold;
 	box-shadow: 0 1px #D0D0D0;
+	padding: 8px 0;
 }
 .tell-your-friends {
 	width: 121px;
-	height: 30px;
 	float: right;
 	border-radius: 3px;
 	background-color: #F4F4F4;
@@ -158,6 +158,7 @@ form button {
 	font-size: 12px;
 	font-weight: bold;
 	box-shadow: 0 1px #D0D0D0;
+	padding: 8px 0;
 }
 #orange-font {
 	color: #EF5F3C;
