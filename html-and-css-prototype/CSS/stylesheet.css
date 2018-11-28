@@ -137,7 +137,7 @@ form button {
 	width: 75%;
 	box-shadow: inset 0 1px 0 #F17C60;
 }
-.save-for-later {
+.save-and-share {
 	width: 121px;
 	border-radius: 3px;
 	background-color: #F4F4F4;
@@ -148,17 +148,8 @@ form button {
 	box-shadow: 0 1px #D0D0D0;
 	padding: 8px 0;
 }
-.tell-your-friends {
-	width: 121px;
+#share {
 	float: right;
-	border-radius: 3px;
-	background-color: #F4F4F4;
-	color: #777;
-	border: 1px solid #D0D0D0;
-	font-size: 12px;
-	font-weight: bold;
-	box-shadow: 0 1px #D0D0D0;
-	padding: 8px 0;
 }
 #orange-font {
 	color: #EF5F3C;
