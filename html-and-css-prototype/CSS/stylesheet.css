@@ -43,15 +43,20 @@ h1 {
 .project-box {
 	width:260px;
 	margin: 50px auto;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 }
 .main-box {
 	width:260px;
 	border: 1px solid;
-	padding:15px 15px;
+	padding:0px 15px;
 	margin-top: 10px;
+	color:#777;
+	font-size: 14px;
+
 }
 input[type=text] {
-	width: 100px;
+	width: 47%;
+	margin-right: 10px;
 }
 .speech-bubble {
 	position: relative;
@@ -61,20 +66,28 @@ input[type=text] {
 	height: 40px;
 	text-align: center;
 	padding:10px;
-	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
-	font-size:15px;
+	font-size:14px;
 }
 
 .speech-bubble:after {
 	content: '';
 	position: absolute;
 	bottom: 0;
-	left: 80%;
+	left: 85%;
 	width: 0;
 	height: 0;
-	border: 15px solid transparent;
+	border:5px solid transparent;
 	border-top-color: #424242;
 	border-bottom: 0;
-	margin-left: -7px;
-	margin-bottom: -7px;
+	margin-left: -5px;
+	margin-bottom: -5px;
+}
+.box-paragraphs {
+	margin: 15px 0;
+}
+button {
+	width: 47%;
+}
+#orange-font {
+	color: #EF5F3C;
 }
