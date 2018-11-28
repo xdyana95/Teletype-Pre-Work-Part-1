@@ -48,9 +48,10 @@ h1 {
 .main-box {
 	width:260px;
 	border: 1px solid #D0D0D0;
-	padding:0px 16px 16px 16px;
+	padding:0px 16px 12px 16px;
 	color:#777;
 	font-size: 14px;
+	margin-bottom: 10px
 
 }
 input[type=text] {
@@ -87,7 +88,7 @@ input[type=text] {
 	margin-bottom: -5px;
 }
 .box-paragraphs {
-	margin: 15px 0;
+	margin: 12px 0;
 }
 #orange-font {
 	color: #EF5F3C;
@@ -119,8 +120,30 @@ form {
 	height: 40px;
 }
 a {
-	font-size: 12px;
+	font-size: 13px;
 	color:  #20A1D4;
 	text-decoration: none;
 	font-weight: bold;
+	display:block;
+	padding: 3px 0;
+}
+
+.save-for-later {
+	width: 121px;
+	height:30px;
+	border-radius: 3px;
+	background-color: #eaeaea;
+	color: #424242;
+	border: 1px solid #D0D0D0;
+	font-size: 12px;
+}
+.tell-your-friends {
+	width: 121px;
+	height: 30px;
+	float: right;
+	border-radius: 3px;
+	background-color: #eaeaea;
+	color: #424242;
+	border: 1px solid #D0D0D0;
+	font-size: 12px;
 }
